@@ -1,0 +1,15 @@
+.main-container {
+  height: 100%;
+  width: 100%;
+  border: 1px solid pink;
+  margin: 0 auto;
+}
+.blog-container {
+  width: 60%;
+  height: 200px;
+  border: 1px solid purple;
+  margin: 0 auto;
+}
+.h1 {
+
+}
