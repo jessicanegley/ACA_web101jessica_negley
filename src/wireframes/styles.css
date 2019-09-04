@@ -1,3 +1,31 @@
 *{
-  background-color: red
+  background-color: blue;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  color: hotpink;
+  display: inline-block
+}
+.header {
+  height: 25%;
+  width: 100%;
+  border: 1px;
+  background-color: fuchsia;
+  border: 1px solid cyan;
+}
+.right-column {
+  height: 100%;
+  width: 35%;
+  background-color: purple;
+  float: right; 
+  margin-top: -752px;
+  border: 1px solid cyan;
+}
+.left-column {
+  height: 100%;
+  width: 60%;
+  background-color: palevioletred;
+  margin-top: 40px;
+  border: 1px solid cyan;
 }
