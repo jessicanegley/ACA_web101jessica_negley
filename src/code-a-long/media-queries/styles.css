@@ -1,0 +1,28 @@
+.body {
+  background-color: aquamarine;
+}
+*{
+  box-sizing: border-box;
+}
+.body {
+  margin: 0;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+  border: 1px solid turquoise;
+}
+.main-container .item {
+  height: 350px;
+  width: 350px;
+  background-color: magenta;
+  margin: 10px auto;
+}
+
+@media (min-width: 576px) {
+  .main-container .item {
+    display: inline-block;
+  }
+.main-container .item:nth-of-type(4) {
+  background-color: coral
+}
