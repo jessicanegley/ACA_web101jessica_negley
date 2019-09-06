@@ -1,0 +1,40 @@
+.body {
+  background-color: floralwhite;
+}
+.body {
+  margin: 0;
+}
+.main-container {
+  height: 100%;
+  width: 100%;
+}
+.main-container .item1 {
+  height: 200px;
+  width: 500px;
+  background-color: whitesmoke;
+  border: 1px solid darkblue;
+  margin: 10px auto;
+}
+.main-container .item2 {
+  height: 400px;
+  width: 500px;
+  background-color: whitesmoke;
+  border: 1px solid darkblue;
+  margin: 10px auto;
+}
+.main-container .item3 {
+  height: 200px;
+  width: 500px;
+  background-color: whitesmoke;
+  border: 1px solid darkblue;
+  margin: 10px auto;
+}
+@media (min-width: 576px) {
+  .main-container {
+    background-color: blueviolet;
+  }
+
+@media (min-width: 768px) {
+  .main-container {
+    background-color: blueviolet;
+  }
