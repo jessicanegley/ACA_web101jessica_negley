@@ -10,9 +10,15 @@
   border: 6px solid purple;
   margin: 0 auto;
   text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: turquoise;
 }
   .h1 {
     font-style: bold;
+    color: hotpink;
+    font-size: 14pt;
+    font-weight: bold;
+}
+.p {
+  font-size: 10pt;
 }
