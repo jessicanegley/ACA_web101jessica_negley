@@ -1,0 +1,113 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: grey;
+}
+
+.grid-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(4,15%) 1fr;
+}
+
+.orange-box {
+  background-color: orangered;
+  grid-column: 1/5;
+  grid-row: 1/9;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: orangered;
+  opacity: .9;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+nav li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover, tap & click */
+nav li a:hover,
+nav li a:focus,
+nav li a:active{
+
+  background-color: #555;
+
+  color: white;
+
+}
+.navy-box {
+  background-color: darkblue;
+  grid-column: 5/16;
+  grid-row: 1/5;
+}
+
+.white-box1 {
+  background-color: white;
+  grid-column: 5/8;
+  grid-row: 5/9;
+}
+
+.white-box2 {
+  background-color: white;
+  grid-column: 9/12;
+  grid-row: 5/9;
+}
+
+.white-box3 {
+  background-color: white;
+  grid-column: 13/16;
+  grid-row: 5/9;
+}
+
+@media (min-width: 576px) {
+  .main-container {
+    background-color: blueviolet;
+  }
+}
+
+@media (max-width: 576px) {
+.orange-box {
+  display:none;
+}
+}
+@media (max-width: 576px) {
+  .body {
+    display:none;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    background-color: blueviolet;
+  }
+}
+@@media (max-width: 768px) {
+  .grid-container {
+    display:none;
+  }
+@media (max-width: 768px) {
+.orange-box {
+  display:none;
+}
+}
